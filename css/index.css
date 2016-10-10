@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@import url(base.css);
+.content {
+  width: 100%;
+  height: 100vh;
+  background: url("./../img/3.JPG") no-repeat 0/100% 100vh; }
+  .content .bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -90%;
+    transition: animation;
+    animation: left 3s ease 2s forwards; }
+    .content .bg .left {
+      float: left;
+      width: 90%;
+      height: 100%;
+      background: url("./../img/bj.png") no-repeat 0/90% 100vh fixed;
+      position: relative; }
+      .content .bg .left .btn {
+        text-shadow: 0 0 .1em, 0 0 .3em;
+        position: absolute;
+        left: 80%;
+        top: 10%;
+        width: 110px;
+        height: auto;
+        opacity: 0;
+        transition: animation 1s ease 3s;
+        animation: opacity 2.5s ease 3.5s forwards; }
+        .content .bg .left .btn li:hover {
+          font-size: 35px;
+          opacity: 0.6;
+          text-shadow: 0 0 .9em, 0 0 .3em; }
+        .content .bg .left .btn .start {
+          width: 100%;
+          height: 110px;
+          background: url("./../img/b.png") no-repeat 0/110px 110px;
+          text-align: center;
+          line-height: 100px;
+          font-family: 楷体;
+          font-size: 30px;
+          cursor: pointer; }
+        .content .bg .left .btn .man {
+          width: 100%;
+          height: 110px;
+          background: url("./../img/b.png") no-repeat 0/110px 110px;
+          text-align: center;
+          line-height: 100px;
+          font-family: 楷体;
+          font-size: 30px;
+          cursor: pointer; }
+        .content .bg .left .btn .com {
+          width: 100%;
+          height: 110px;
+          background: url("./../img/b.png") no-repeat 0/110px 110px;
+          text-align: center;
+          line-height: 100px;
+          font-family: 楷体;
+          font-size: 30px;
+          cursor: pointer; }
+        .content .bg .left .btn .re {
+          width: 100%;
+          height: 110px;
+          background: url("./../img/b.png") no-repeat 0/110px 110px;
+          text-align: center;
+          line-height: 100px;
+          font-family: 楷体;
+          font-size: 30px;
+          cursor: pointer; }
+        .content .bg .left .btn .ru {
+          width: 100%;
+          height: 110px;
+          background: url("./../img/b.png") no-repeat 0/110px 110px;
+          text-align: center;
+          line-height: 100px;
+          font-family: 楷体;
+          font-size: 30px;
+          cursor: pointer;
+          position: relative; }
+          .content .bg .left .btn .ru .rule {
+            width: 130px;
+            height: 180px;
+            font-size: 20px;
+            position: absolute;
+            left: 97%;
+            top: -42%;
+            text-align: left;
+            line-height: 30px;
+            border-radius: 5px;
+            background: #cccccc;
+            opacity: 0; }
+          .content .bg .left .btn .ru .rules {
+            opacity: 1; }
+        .content .bg .left .btn .xuan {
+          width: 110px;
+          height: 110px;
+          background: url("./../img/e.jpg") no-repeat 0/110px 110px;
+          text-align: center;
+          line-height: 100px;
+          font-family: 楷体;
+          font-size: 35px;
+          cursor: pointer; }
+
+@keyframes opacity {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.3; }
+  100% {
+    opacity: 1; } }
+      .content .bg .left #c {
+        position: absolute;
+        left: -2%;
+        top: -300%;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        background: #dcb065;
+        box-sizing: border-box;
+        border: 20px solid #b57224;
+        opacity: 0.9; }
+      .content .bg .left .wuzi {
+        position: absolute;
+        left: 90%;
+        top: 40%;
+        writing-mode: tb-rl;
+        font-size: 40px;
+        font-family: 楷体;
+        font-weight: 900;
+        color: #000000;
+        opacity: 0.9;
+        text-shadow: 0 0 .1em, 0 0 .3em; }
+    .content .bg .cir {
+      float: left;
+      width: 10%;
+      height: 100%;
+      background: url("./../img/yuan.png") no-repeat 0/99.9% 100vh; }
+
+@keyframes left {
+  0% {
+    left: -100%; }
+  100% {
+    left: 0; } }
